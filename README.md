@@ -1,4 +1,4 @@
-# starter-ts
+# vue-axios-request-utils
 
 A ts starter by developer-plus.
 
