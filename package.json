@@ -1,7 +1,7 @@
 {
   "name": "vue-axios-request-utils",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.1.2",
   "description": "",
   "author": "TickHeart",
@@ -26,8 +26,17 @@
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typesVersions": { "*": { "*": ["./dist/*", "./dist/index.d.ts"] } },
-  "files": ["dist"],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "stub": "unbuild --stub",
     "build": "unbuild",
@@ -59,7 +68,17 @@
     "vitest": "^0.12.10",
     "vue": "^3.2.37"
   },
-  "lint-staged": { "*.{js,ts,json,md}": ["eslint --fix"] },
-  "commitlint": { "extends": ["@commitlint/config-conventional"] },
-  "dependencies": { "ztshared": "^0.0.12" }
+  "lint-staged": {
+    "*.{js,ts,json,md}": [
+      "eslint --fix"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "ztshared": "^0.0.12"
+  }
 }
