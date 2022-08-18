@@ -1,5 +1,10 @@
 # vue-axios-request-utils
 
+## install
+```shell
+pnpm install vue-axios-request-utils
+```
+
 A ts starter by developer-plus.
 
 
